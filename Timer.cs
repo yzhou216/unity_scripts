@@ -22,7 +22,7 @@ public class Timer : MonoBehaviour
 		if (CountDown <= 0) {
 			Coin.CoinCount = 0;
 			Destroy(gameObject);
-			SceneManager.LoadScene(0);
+			SceneManager.LoadScene(2);
 		}
 	}
 }
